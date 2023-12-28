@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>TestWork</title>
+    <title>Portfolio</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <h1>Łukasz Kogut</h1>
+        <img src="./img/CV zdjecie.png" alt="Foto-CV" width="100px">
+        <p>Front-end Developer</p>
+        <!-- <div>Wiek Obliczany za pomocą js</div> -->
+    </header>
+
+    <section class="container" id="about">
+        <h2>O mnie</h2>
+        <div class="block">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </section>
+
+    <section class="container" id="project">
+        <h2>Projekty</h2>
+        <div class="block">
+            <h3>Nazwa Projektu </h3>
+            <p>Krótki opis projektu </p>
+            <a href="">Link do github</a>
+        </div>
+    </section>
+
+    <section class="container" id="weather">
+        <div class="block">
+            <div class="weather-container">
+                <h4>Weather App</h4>
+                <div id="weather-info"></div>
+                <button id="refresh-button">Refresh Weather</button>
+            </div>
+        </div>
+        <!-- Rzeszów -->
+    </section>
+
+    <section class="container" id="local-time">
+        <div class="block">
+            <div class="clock">
+                <div id="time"></div>
+        </div>
+        <!-- Rzeszów -->
+    </section>
+
+    <section class="container" id="education">
+        <div class="block"></div>
+    </section>
+
+    <section class="container" id="language">
+        <div class="block">
+            <p>polski:</p>
+            <p>angielski:</p>
+        </div>
+
+    </section>
+
+    <section class="container" id="what-i-do">
+        <div class="block"></div>
+        <!-- HTML,css itp -->
+    </section>
+
+    <section class="container" id="contact">
+        <div class="block">
+            <h2>Kontakt</h2>
+            <p>Email: lukaszkogut1996@gmail.com</p>
+            <p>Linkedin: </p>
+        </div>
+
+    </section>
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./index.js"></script>
+
 </html>
