@@ -63,3 +63,7 @@ function refreshWeather() {
 getWeatherData()
 
 document.getElementById('refresh-button').addEventListener('click', refreshWeather)
+
+
+
+

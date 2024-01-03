@@ -2,46 +2,46 @@
 @import 'components/clock.css';
 @import 'components/weather.css';
 
-
 body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
+	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-    color: rgb(196, 196, 196);
+	color: rgb(196, 196, 196);
 	background-color: #333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
-section{
-    border: 1px solid;
-    border-radius: 10px;
-    margin: 5px;
+section {
+	border: 1px solid;
+	border-radius: 10px;
+	margin: 5px;
 }
 
 .header {
-    flex: 1;
-    border: 1px solid ;
-    border-radius: 10px;
+	flex: 1;
+	border: 1px solid;
+	border-radius: 10px;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 15px;
-    max-width: 1980px;
-    width: 80%;
-    padding: 20px;
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px;
+	width: 80%;
+	padding: 20px;
+	width: 100%;
+	max-width: 1080px;
+	margin: 10px;
 }
 
 
-
-
-
-
-
-
-
-
+.line {
+	border-bottom: 2px solid rgb(196, 196, 196);
+	padding-bottom: 5px;
+	margin-top: 0;
+}
