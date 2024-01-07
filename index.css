@@ -12,6 +12,8 @@ body {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 
 section {
@@ -21,7 +23,6 @@ section {
 }
 
 .header {
-	flex: 1;
 	border: 1px solid;
 	border-radius: 10px;
 }
@@ -39,9 +40,12 @@ section {
 	margin: 10px;
 }
 
-
 .line {
 	border-bottom: 2px solid rgb(196, 196, 196);
 	padding-bottom: 5px;
 	margin-top: 0;
 }
+
+/* #about, #project, #weather, #local-time, #education, #language, #what-i-can-do, #contact {
+    grid-column: span 1;
+} */
