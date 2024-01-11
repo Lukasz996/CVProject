@@ -6,20 +6,10 @@ body {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: rgb(196, 196, 196);
+	color: rgb(185, 185, 185);
 	background-color: #333;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-}
-
-section {
-	border: 1px solid;
-	border-radius: 10px;
-	margin: 5px;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .header {
@@ -32,12 +22,9 @@ section {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 15px;
-	width: 80%;
-	padding: 20px;
-	width: 100%;
+	border: 1px solid;
+	border-radius: 10px;
 	max-width: 1080px;
-	margin: 10px;
 }
 
 .line {
@@ -46,6 +33,6 @@ section {
 	margin-top: 0;
 }
 
-/* #about, #project, #weather, #local-time, #education, #language, #what-i-can-do, #contact {
-    grid-column: span 1;
-} */
+.block {
+	width: 80%;
+}
