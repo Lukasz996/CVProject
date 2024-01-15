@@ -8,23 +8,30 @@ body {
 	box-sizing: border-box;
 	color: rgb(185, 185, 185);
 	background-color: #333;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
 }
 
-.header {
-	border: 1px solid;
-	border-radius: 10px;
+.boxes {
+	display: grid;
+	grid-template-columns: 25% 15% 20% 40%;
+}
+
+.boxes-1{
+	display: grid;
+	grid-template-columns: 45% 30% 25%;
+}
+
+.boxes-2 {
+	display: grid;
+	grid-template-columns: 25% 25%;
 }
 
 .container {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	border: 1px solid;
 	border-radius: 10px;
-	max-width: 1080px;
+	max-width: 1980px;
 }
 
 .line {
@@ -33,6 +40,5 @@ body {
 	margin-top: 0;
 }
 
-.block {
-	width: 80%;
-}
+
+
