@@ -10,86 +10,138 @@
 </head>
 
 <body>
-    <div class="boxes">
 
-        <section class="container ">
+    <div class="container">
+        <div class="photo">
             <h1>Łukasz Kogut</h1>
             <img src="./img/CV zdjecie.png" alt="Foto-CV" width="200px">
-        </section>
-
-
-        <section class="container" id="local-time">
-            <div class="block">
-                <div class="clock">
-                    <div id="time"></div>
+        </div>
+        <div class="localTime">
+            <div class="clock">
+                <div id="time"></div>
+            </div>
+            <div class="weather">
+                <div class="weather">
+                    <div class="weather-container">
+                        <h4 class="line"> Weather App</h4>
+                        <div id="weather-info"></div>
+                        <button id="refresh-button">Refresh Weather</button>
+                    </div>
                 </div>
-        </section>
+                <div class="about">
+                    <h3>ALL ABOUT ME</h3>
+                    <p>I am a beginner Full Stack Developer with a passion for creating web applications.
+                        I am eager to develop my skills and gain new experiences.
+                        On the front-end, I have skills in HTML, CSS, and JavaScript, along with experience working with
+                        the
+                        React framework.</p>
+                </div>
+                <div class="education">
+                    <h3>Education:</h3>
+                    <p>2023 - IT School GoIT, Full Stack Developer</p>
+                    <p>2018 - WSPiA Rzeszowska Szkoła Wyższa</p>
+                    <p>2016 - Zespół Szkół Gospodarczych w Rzeszowie</p>
+                </div>
+                <div class="whatICanDo">
+                    <h3>What I Can Do:</h3>
+                    <p>HTML | CSS | JavaScript | React</p>
+                </div>
+                <div class="language">
+                    <p>polski:</p>
+                    <p>angielski:</p>
+                </div>
+                <div class="contact">
+                    <h3>Contact:</h3>
+                    <p>Email: lukaszkogut1996@gmail.com</p>
+                    <p>Linkedin: </p>
+                </div>
+                <div class="project-1">
+                    <h3>Project: </h3>
+                    <p>Krótki opis projektu </p>
+                    <a href="">Link do github</a>
+                </div>
+                <div class="project-2">
+                    <h3>Project: </h3>
+                    <p>Krótki opis projektu </p>
+                    <a href="">Link do github</a>
+                </div>
+            </div>
 
-        <section class="container" id="weather">
-            <div class="block">
+            <!-- 
+    <div class="container">
+        <div class="photo">
+            <h1>Łukasz Kogut</h1>
+            <img src="./img/CV zdjecie.png" alt="Foto-CV" width="200px">
+        </div>
+    </div>
+    <div class="container">
+        <div class="localTime">
+            <div class="clock">
+                <div id="time"></div>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="weather">
                 <div class="weather-container">
                     <h4 class="line"> Weather App</h4>
                     <div id="weather-info"></div>
                     <button id="refresh-button">Refresh Weather</button>
                 </div>
             </div>
-        </section>
-
-        <section class="container" id="project">
+        </div>
+        <div class="container ">
             <h2 class="line">Projekty</h2>
-            <div class="block">
+            <div class="project-1">
                 <h3>Nazwa Projektu </h3>
                 <p>Krótki opis projektu </p>
                 <a href="">Link do github</a>
             </div>
-        </section>
-    </div>
-
-    <div class="boxes-1">
-        <section class="container" id="about">
+        </div>
+        <div class="container ">
+            <h2 class="line">Projekty</h2>
+            <div class="project-2">
+                <h3>Nazwa Projektu </h3>
+                <p>Krótki opis projektu </p>
+                <a href="">Link do github</a>
+            </div>
+        </div>
+        <div class="container">
             <h2 class="line">O mnie</h2>
-            <div class="block">
+            <div class=" about">
                 <p>I am a beginner Full Stack Developer with a passion for creating web applications.
                     I am eager to develop my skills and gain new experiences.
                     On the front-end, I have skills in HTML, CSS, and JavaScript, along with experience working with the
                     React framework.</p>
             </div>
-        </section>
-
-
-        <section class="container" id="education">
+        </div>
+        <div class="container">
             <h2 class="line">Education</h2>
-            <div class="block">
+            <div class=" education">
                 <p>2023 - IT School GoIT, Full Stack Developer</p>
                 <p>2018 - WSPiA Rzeszowska Szkoła Wyższa</p>
                 <p>2016 - Zespół Szkół Gospodarczych w Rzeszowie</p>
             </div>
-        </section>
-
-
-        <section class="container" id="what I can do">
+        </div>
+        <div class="container">
             <h2 class="line">What I can do</h2>
-            <div class="block">
+            <div class=" whatICanDo">
                 <p>HTML | CSS | JavaScript | React</p>
             </div>
-        </section>
-    </div>
-    <div class="boxes-2">
-    <section class="container" id="language">
-        <div class="block">
-            <p>polski:</p>
-            <p>angielski:</p>
         </div>
+        <div class="container ">
+            <div class="language">
+                <p>polski:</p>
+                <p>angielski:</p>
+            </div>
 
-    </section>
+        </div>
+        <div class="container ">
+            <h2 class="line">Kontakt</h2>
+            <div class="contacts">
+                <p>Email: lukaszkogut1996@gmail.com</p>
+                <p>Linkedin: </p>
+            </div> -->
 
-    <section class="container" id="contact">
-        <h2 class="line">Kontakt</h2>
-        <div class="block">
-            <p>Email: lukaszkogut1996@gmail.com</p>
-            <p>Linkedin: </p>
-    </section>
-    </div>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

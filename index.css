@@ -8,37 +8,75 @@ body {
 	box-sizing: border-box;
 	color: rgb(185, 185, 185);
 	background-color: #333;
+	width: 100vw;
+	height: 100vh;
 }
 
-.boxes {
-	display: grid;
-	grid-template-columns: 25% 15% 20% 40%;
-}
-
-.boxes-1{
-	display: grid;
-	grid-template-columns: 45% 30% 25%;
-}
-
-.boxes-2 {
-	display: grid;
-	grid-template-columns: 25% 25%;
-}
+/* section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
 
 .container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 5px 10px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		'photo localTime weather about'
+		'project-1 project-1 project-2 project-2'
+		'education whatICanDo language contact';
+}
+
+.photo {
+	grid-area: photo;
+}
+
+.localTime {
+	grid-area: localTime;
+}
+
+.weather {
+	grid-area: weather;
+}
+
+.about {
+	grid-area: about;
+}
+
+.education {
+	grid-area: education;
+}
+
+.whatICanDo {
+	grid-area: whatICanDo;
+}
+
+.language {
+	grid-area: language;
+}
+
+.contact {
+	grid-area: contact;
+}
+
+.project-1 {
+	grid-area: project-1;
+}
+
+.project-2 {
+	grid-area: project-2;
+}
+
+/* .container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border: 1px solid;
 	border-radius: 10px;
 	max-width: 1980px;
-}
-
-.line {
-	border-bottom: 2px solid rgb(196, 196, 196);
-	padding-bottom: 5px;
-	margin-top: 0;
-}
-
+} */
 
 
