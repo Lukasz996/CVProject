@@ -1,17 +1,26 @@
 
 .weather-container {
     text-align: center;
+    margin: 0;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
 }
 
 h4 {
-    color: #333;
+    font-size: larger;
+    margin: 5px;
+    color: rgb(255, 255, 255);
 }
 
 #weather-info {
     margin-top: 20px;
-    font-size: 1.2em;
-    color: #555;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
 }
+
+ 
+.weather-container button {
+    border-radius: 25px;
+    padding: 10px;
+} 

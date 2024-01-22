@@ -1,10 +1,27 @@
 .clock {
-    font-family: 'Arial', sans-serif;
-    font-size: 2em;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+	font-family: 'Arial', sans-serif;
+	font-size: 2em;
+	background-color: rgb(88, 88, 88);
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
 }
 
+.container {
+	text-align: center;
+}
 
+.border {
+    width: 100%;
+}
+
+.container h3,
+.container h4 {
+	margin-top: 0;
+	border-bottom: 2px solid rgb(88, 88, 88); /* Dodaje podkreślenie dla wszystkich nagłówków */
+	padding-bottom: 5px; /* Dodatkowy odstęp poniżej podkreślenia */
+}
+
+.container p {
+	margin-top: 20px;
+}
