@@ -1,10 +1,11 @@
 .clock {
 	font-family: 'Arial', sans-serif;
-	font-size: 2em;
-	background-color: rgb(88, 88, 88);
+	font-size: 4em;
+	/* background-color: rgb(88, 88, 88); */
 	color: #fff;
 	padding: 20px;
 	border-radius: 10px;
+	
 }
 
 .container {
@@ -25,3 +26,8 @@
 .container p {
 	margin-top: 20px;
 }
+
+
+
+  
+  
