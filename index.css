@@ -14,12 +14,18 @@ body {
 	height: 100vh;
 }
 
+a {
+	text-decoration: none;
+	color: rgb(243, 50, 50);
+}
+
 /* --------- common -------- */
 
 .border {
 	position: relative;
 	text-align: center;
 	margin: 0;
+	box-shadow: 15px 15px 15px -9px rgba(43, 65, 98, 1);
 }
 
 h3 {
@@ -41,7 +47,40 @@ h1 {
 
 /* ------------ about ---------- */
 
-.about p{
-margin-left: 35px;
-margin-right: 35px;
+.about p {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+/* --------------projekt--------------------- */
+
+.info-project {
+	position: relative;
+	text-align: center;
+	height: 55%;
+	width: 75%;
+	margin: 10px;
+}
+
+.target li {
+	list-style-type: none;
+	margin: 15px;
+}
+
+.tech li {
+	list-style-type: none;
+	margin: 15px;
+}
+
+/* ----------------- education --------------*/
+
+.education p {
+	margin: 35px;
+	padding: 5px;
+}
+
+/* ----------------language------ */
+
+.language {
+	
 }
