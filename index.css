@@ -63,6 +63,10 @@ h1 {
 	margin: 10px;
 }
 
+.info-project::first-line {
+	color: rgb(33, 175, 128);
+}
+
 
 .target li,
 .tech li {
@@ -75,6 +79,12 @@ a,
 span {
 	display: block;
 	margin-top: 10px;
+}
+
+.reference {
+	position: absolute;
+	text-align: center;
+	bottom: 10%;
 }
 
 
