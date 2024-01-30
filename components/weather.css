@@ -1,26 +1,25 @@
-
 .weather-container {
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-    border-radius: 10px;
-    /* background-color: #f0f0f0; */
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	border-radius: 10px;
+	/* background-color: #f0f0f0; */
 }
 
 h4 {
-    font-size: larger;
-    margin: 5px;
-    color: rgb(33, 175, 128);
+	font-size: larger;
+	margin: 5px;
+	color: #21af80;
+	text-shadow: 0 0 10px #21af80;
 }
 
 #weather-info {
-    margin-top: 20px;
-    font-size: 1em;
-    color: rgb(255, 255, 255);
+	margin-top: 20px;
+	font-size: 1em;
+	color: rgb(255, 255, 255);
 }
 
- 
 .weather-container button {
-    border-radius: 25px;
-    padding: 10px;
-} 
+	border-radius: 25px;
+	padding: 10px;
+}

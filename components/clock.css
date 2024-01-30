@@ -2,7 +2,8 @@
 	font-family: 'Arial', sans-serif;
 	font-size: 4em;
 	/* background-color: rgb(88, 88, 88); */
-	color: #fff;
+	color: #21af80;
+	text-shadow: 0 0 15px #21af80;
 	padding: 20px;
 	border-radius: 10px;
 	

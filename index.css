@@ -12,11 +12,13 @@ body {
 	background-image: linear-gradient(315deg, rgb(43, 65, 98) 0%, rgb(18, 16, 14) 74%);
 	width: 100vw;
 	height: 100vh;
+
+	transition: 1.5s;
 }
 
 a {
 	text-decoration: none;
-	color: rgb(221, 27, 27);
+	color: #dd1b1b;
 }
 
 /* --------- common -------- */
@@ -25,13 +27,14 @@ a {
 	position: relative;
 	text-align: center;
 	margin: 0;
-	box-shadow: 15px 25px 15px -1px rgb(32, 32, 32);
+	box-shadow: 10px 20px 20px -17px rgba(0, 255, 255, 0.53);
 }
 
 h3 {
 	position: absolute;
 	top: 25px;
-	color: rgb(33, 175, 128);
+	color: rgb(33, 175, 128) ;
+	text-shadow: 0 0 10px #21af80;
 }
 
 /* ---------------photo-------- */
@@ -39,6 +42,8 @@ h3 {
 h1 {
 	position: absolute;
 	top: 5px;
+	color: #21af80;
+	text-shadow: 0 0 10px #21af80;
 }
 
 .imgCv {
@@ -61,12 +66,12 @@ h1 {
 	height: 65%;
 	width: 85%;
 	margin: 10px;
+	
 }
 
 .info-project::first-line {
-	color: rgb(33, 175, 128);
+	color: #21af80;
 }
-
 
 .target li,
 .tech li {
@@ -87,7 +92,14 @@ span {
 	bottom: 10%;
 }
 
+.fa-github, .fa-image {
+	font-size: 22px;
+	color: #21af80;
+}
 
+.fa-github:hover, .fa-image:hover {
+	transform: scale(1.2);
+}
 
 /* ----------------- education --------------*/
 
@@ -105,3 +117,35 @@ span {
 	display: block;
 	margin-top: 10px;
 }
+
+
+/* -----------------Dark Mode------------ */
+.night-toggle {
+	width: 33px;
+	height: 33px;
+	right: 20px;
+	top: 20px;
+	position: absolute;
+	}
+	.night-toggle:hover{
+	cursor: pointer;
+	}
+	.moon {
+	background-color: transparent;
+	box-shadow: -6px 1px 0 3px #275e8e;
+	border-left:3px solid #27476D;
+	border-radius:50%;
+	width: 20px;
+	height: 20px;
+	margin-left:8px;
+	margin-top:0px;
+	transition: 2s;
+	}
+	.sun {
+	background-color: #fdd462;
+	box-shadow: 2px 0px 0px 1px #D19C29;
+	border-radius:50%;
+	width: 26px;
+	height: 26px;
+	transition: 2s;
+	}
