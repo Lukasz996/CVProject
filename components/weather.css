@@ -27,6 +27,7 @@ h4 {
 	background-color: #21af80;
 	box-shadow: 0px 0px 10px #21af80;
 	transition: .5s linear;
+	cursor: pointer;
 	
 }
 

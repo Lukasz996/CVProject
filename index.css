@@ -121,21 +121,17 @@ span {
 }
 
 /* ------------------------ contact------------ */
-
-.contactLink {
+.contactLink a {
 	position: relative;
 	text-align: center;
 	padding: 25px;
 	margin: 10px;
 	font-size: 20px;
+	transition: .4s linear;  
 }
 .contactLink:hover a:hover {
 	transform: scale(1.2);
 }
-
-
-
-
 
 /* -----------------Dark Mode------------ */
 .night-toggle {
