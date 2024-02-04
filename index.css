@@ -9,7 +9,7 @@ body {
 	box-sizing: border-box;
 	color: rgb(207, 207, 207);
 	background-color: rgb(43, 65, 98);
-	background-image: linear-gradient(315deg, rgb(43, 65, 98) 0%, rgb(18, 16, 14) 74%);
+	background-image: linear-gradient(315deg, rgb(16, 47, 94) 0%, rgb(18, 16, 14) 74%);
 	width: 100vw;
 	height: 100vh;
 }
@@ -19,147 +19,11 @@ a {
 	color: rgb(33, 175, 128);
 }
 
-/* --------- common -------- */
-
-.border {
-	position: relative;
-	text-align: center;
-	margin: 0;
-	box-shadow: 10px 20px 20px -17px rgba(0, 255, 255, 0.53);
+li {
+	list-style: none;
 }
 
 h3 {
-	position: absolute;
-	text-transform: uppercase;
-	font-size: 25px;
-	top: 25px;
-	color: rgb(33, 175, 128);
-	text-shadow: 0 0 10px #21af80;
-}
-
-/* ---------------photo-------- */
-
-h1 {
-	position: absolute;
-	top: 5px;
-	color: #21af80;
-	text-shadow: 0 0 10px #21af80;
-}
-
-.imgCv {
-	position: relative;
-	top: 25px;
-}
-
-/* ------------ about ---------- */
-
-.about p {
-	margin-left: 35px;
-	margin-right: 35px;
-}
-
-/* --------------projekt--------------------- */
-
-.info-project {
-	position: relative;
-	text-align: center;
-	height: 65%;
-	width: 85%;
-	margin: 10px;
-}
-
-.info-project::first-line {
-	color: #21af80;
-}
-
-.target li,
-.tech li {
-	list-style-type: none;
-	margin: 15px;
-}
-
-.info-project,
-a,
-span {
-	display: block;
-	margin-top: 10px;
-}
-
-.reference {
-	position: absolute;
-	text-align: center;
-	bottom: 10%;
-}
-
-.fa-github,
-.fa-image {
 	font-size: 22px;
-	color: #21af80;
-	transition: 0.4s linear;
-}
-
-.fa-github:hover,
-.fa-image:hover {
-	transform: scale(1.2);
-}
-
-/* ----------------- education --------------*/
-
-.education p {
-	margin: 35px;
-	padding: 5px;
-}
-
-/* ----------------language------ */
-.language {
-	position: relative;
-	text-align: center;
-}
-.language p {
-	display: block;
-	margin-top: 10px;
-}
-
-/* ------------------------ contact------------ */
-.contactLink a {
-	position: relative;
-	text-align: center;
-	padding: 25px;
-	margin: 10px;
-	font-size: 20px;
-	transition: .4s linear;  
-}
-.contactLink:hover a:hover {
-	transform: scale(1.2);
-}
-
-/* -----------------Dark Mode------------ */
-.night-toggle {
-	width: 33px;
-	height: 33px;
-	right: 20px;
-	top: 20px;
-	position: absolute;
-}
-.night-toggle:hover {
-	cursor: pointer;
-}
-.moon {
-	background-color: transparent;
-	box-shadow: -6px 1px 0 3px #275e8e;
-	border-left: 3px solid #27476d;
-	border-radius: 50%;
-	width: 20px;
-	height: 20px;
-	margin-left: 8px;
-	margin-top: 0px;
-	transition: 2s;
-}
-.sun {
-	background-color: #fdd462;
-	box-shadow: 2px 0px 0px 1px #d19c29;
-	border-radius: 50%;
-	width: 26px;
-	height: 26px;
-	transition: 2s;
+	color: rgb(33, 175, 128);
 }

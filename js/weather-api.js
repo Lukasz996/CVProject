@@ -1,3 +1,10 @@
+import Notiflix from "notiflix";
+
+// const error = document.querySelector('.error');
+
+// error.style.display = 'none';
+
+
 async function getWeatherData() {
 	const options = {
 		method: 'GET',
@@ -32,6 +39,7 @@ function displayWeatherInfo(weatherData) {
 
 function refreshWeather() {
 	console.log('Odświeżanie danych pogodowych...')
+	
 	getWeatherData()
 }
 
@@ -39,3 +47,5 @@ function refreshWeather() {
 getWeatherData()
 
 document.getElementById('refresh-button').addEventListener('click', refreshWeather)
+
+
