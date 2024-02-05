@@ -1,15 +1,11 @@
-
 .container {
 	display: grid;
-	grid-template-columns: repeat(4, 2fr);
 	grid-template-rows: 1fr 2fr 1fr;
-	gap: 50px 50px;
-	grid-auto-flow: row;
+	gap: 3%;
 	grid-template-areas:
-	'photo localTime weather about'
-	'project-1 project-1 project-2 project-2'
-	'education whatICanDo language contact';
-	padding: 25px;
+		'photo localTime weather about'
+		'project-1 project-1 project-2 project-2'
+		'education whatICanDo language contact';
 }
 
 .border {

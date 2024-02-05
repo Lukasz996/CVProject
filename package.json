@@ -1,6 +1,26 @@
 {
   "dependencies": {
     "axios": "^1.6.3",
+    "node": "^21.6.1",
     "notiflix": "^3.2.7"
-  }
+  },
+  "name": "testwork",
+  "version": "1.0.0",
+  "description": "Cv design",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lukasz996"
+  },
+  "keywords": [
+    "Cv",
+    "project",
+    "portfolio"
+  ],
+  "author": "Łukasz Kogut",
+  "license": "ISC"
 }
