@@ -29,5 +29,6 @@ h3 {
 	color: rgb(33, 175, 128);
 }
 
-
-
+.about p {
+padding: 0 25% 0 25%;
+}
