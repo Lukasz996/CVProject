@@ -8,7 +8,9 @@
   "version": "1.0.0",
   "description": "Cv design",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
   "scripts": {
     "test": "CV"
   },

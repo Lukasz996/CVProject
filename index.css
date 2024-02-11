@@ -30,5 +30,13 @@ h3 {
 }
 
 .about p {
-padding: 0 25% 0 25%;
+	padding: 0 15%;
+}
+
+.project-2 ul {
+	color: #21af80;
+}
+
+.project-2 li {
+	padding: 0 10%;
 }
