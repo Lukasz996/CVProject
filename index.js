@@ -1,7 +1,3 @@
-// import axios from 'axios'
-// import Notiflix from "notiflix"
-
-
 function updateTime() {
 	let now = new Date()
 	let hours = now.getHours()
@@ -49,13 +45,22 @@ function displayWeatherInfo(weatherData) {
         <p>Temperature: ${current.temp_c}°C</p>
         <p>Condition: ${current.condition.text}</p>
         <p>Wind Speed: ${current.wind_kph} km/h</p>
-
     `
 	document.getElementById('weather-info').innerHTML = weatherInfo
 }
 
 function refreshWeather() {
-	console.log('Odświeżanie danych pogodowych...')
+	console.log('Refreshing weather data...')
+	const refreshButton = document.getElementById('refresh-button')
+	// Zamiast nazwy tekstowej w przycisku, ustawimy komunikat o aktualizacji
+	refreshButton.textContent = 'Updating...'
+
+	// Po 2 sekundach przywróć pierwotny tekst przycisku
+	setTimeout(() => {
+		console.log('Resetting button text...')
+		refreshButton.textContent = 'Refresh Weather'
+	}, 2000)
+
 	getWeatherData()
 }
 

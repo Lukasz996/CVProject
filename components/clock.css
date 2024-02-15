@@ -1,12 +1,10 @@
 .clock {
 	font-family: 'Arial', sans-serif;
 	font-size: 4em;
-	/* background-color: rgb(88, 88, 88); */
 	color: #21af80;
 	text-shadow: 0 0 15px #21af80;
 	padding: 20px;
 	border-radius: 10px;
-	
 }
 
 .container {
@@ -14,21 +12,23 @@
 }
 
 .border {
-    width: 100%;
+	width: 100%;
 }
 
 .container h3,
 .container h4 {
 	margin-top: 0;
-	border-bottom: 2px solid rgb(88, 88, 88); /* Dodaje podkreślenie dla wszystkich nagłówków */
-	padding-bottom: 5px; /* Dodatkowy odstęp poniżej podkreślenia */
+	border-bottom: 2px solid rgb(88, 88, 88);
+	padding-bottom: 5px;
 }
 
 .container p {
 	margin-top: 20px;
 }
 
+@media screen and (max-width: 600px) {
+	.clock {
+		font-size: 3em;
+	}
+}
 
-
-  
-  
