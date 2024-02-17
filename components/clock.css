@@ -1,18 +1,14 @@
 .clock {
 	font-family: 'Arial', sans-serif;
-	font-size: 4em;
+	font-size: 3em;
 	color: #21af80;
 	text-shadow: 0 0 15px #21af80;
-	padding: 20px;
 	border-radius: 10px;
+	flex-grow: 1;
 }
 
 .container {
 	text-align: center;
-}
-
-.border {
-	width: 100%;
 }
 
 .container h3,

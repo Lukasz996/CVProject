@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9d505c2f30.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="./index.css">
     <title>Łukasz Kogut's Portfolio</title>
 </head>
@@ -15,31 +16,30 @@
         <div class="photo border">
             <h1>Łukasz Kogut</h1>
             <img src="./img/CV zdjecie.png" alt="Foto-CV" width="200px" class="imgCv">
-
         </div>
+        <div class="firstBoxes">
+            <div class="localTime border">
+                <div class="clock">
+                    <div id="time"></div>
+                </div>
+            </div>
 
-        <div class="localTime border">
-            <div class="clock">
-                <div id="time"></div>
+            <div class="weather border">
+                <div class="weather-container">
+                    <h4 class="line">Weather App</h4>
+                    <div id="weather-info"></div>
+                    <button id="refresh-button">Refresh Weather</button>
+                </div>
+            </div>
+
+            <div class="about border">
+                <h3>All About Me</h3>
+                <p>I am a beginner Full Stack Developer with a passion for creating web applications.
+                    Eager to develop my skills and gain new experiences.
+                    On the front-end, I have skills in HTML, CSS, and JavaScript, along with experience working with
+                    the React framework.</p>
             </div>
         </div>
-
-        <div class="weather border">
-            <div class="weather-container">
-                <h4 class="line">Weather App</h4>
-                <div id="weather-info"></div>
-                <button id="refresh-button">Refresh Weather</button>
-            </div>
-        </div>
-
-        <div class="about border">
-            <h3>All About Me</h3>
-            <p>I am a beginner Full Stack Developer with a passion for creating web applications.
-                Eager to develop my skills and gain new experiences.
-                On the front-end, I have skills in HTML, CSS, and JavaScript, along with experience working with
-                the React framework.</p>
-        </div>
-
         <div class="project-1 border">
             <h3>Projects</h3>
             <div class="boxes">
@@ -97,8 +97,8 @@
 
         <div class="language border">
             <h3>Languages</h3>
-            <p>POLISH:</p>
-            <p>ENGLISH:</p>
+            <p>POLISH: Native</p>
+            <p>ENGLISH: B1/B2</p>
         </div>
 
         <div class="contact border">
@@ -112,6 +112,8 @@
             </div>
         </div>
     </div>
+
+    <button class="scroll-to-top"><i class="fa-solid fa-arrow-up slide-top"></i></button>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./index.js" type="module"></script>
