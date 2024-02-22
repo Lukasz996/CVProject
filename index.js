@@ -55,11 +55,10 @@ function refreshWeather() {
 	// Zamiast nazwy tekstowej w przycisku, ustawimy komunikat o aktualizacji
 	refreshButton.textContent = 'Updating...'
 
-	// Po 2 sekundach przywróć pierwotny tekst przycisku
 	setTimeout(() => {
 		console.log('Resetting button text...')
 		refreshButton.textContent = 'Refresh Weather'
-	}, 2000)
+	}, 1000)
 
 	getWeatherData()
 }

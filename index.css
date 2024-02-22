@@ -28,12 +28,17 @@ h1 {
 
 li {
 	list-style: none;
-	padding: 1% 15%;
+	padding: 5px;
 }
 
 h3 {
 	font-size: 20px;
 	color: rgb(33, 175, 128);
+}
+
+.photo {
+	display: flex;
+	flex-basis: fill;
 }
 
 .imgCv {
@@ -49,7 +54,17 @@ h3 {
 .firstBoxes {
 	display: flex;
 	align-items: center;
-	gap: 50px;
+}
+
+@media (max-width: 1040px) {
+	.firstBoxes {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	li {
+		margin: 5px;
+	}
 }
 
 .scroll-to-top {
@@ -64,4 +79,21 @@ h3 {
 	border-radius: 50px;
 	font-size: 26px;
 	cursor: pointer;
+}
+@media (max-width: 1040px) {
+	.scroll-to-top {
+		width: 50px;
+		height: 50px;
+	}
+
+	.scroll-to-top:hover {
+		box-shadow: 1px 1px 5px #21af80;
+	}
+}
+
+
+@media (max-width: 1040px) {
+	.container {
+		margin: 0 35px;
+	}
 }
