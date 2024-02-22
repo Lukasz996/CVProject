@@ -42,7 +42,7 @@ function refreshWeather() {
 		console.log('Resetting button text...')
 
 		refreshButton.textContent = 'Refresh Weather'
-	}, 2000)
+	}, 1000)
 
 	getWeatherData()
 }

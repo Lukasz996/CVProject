@@ -7,9 +7,14 @@
 }
 
 /* Media queries dla responsywności */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
 	.container {
 		max-width: 1000px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		max-width: 900px;
 	}
 }
 
@@ -52,8 +57,8 @@
 }
 
 .localTime {
-	width: 50%;
-	margin: 20px;
+	width: 100%;
+	margin: 0 20px;
 }
 
 @media (max-width:1040px) {

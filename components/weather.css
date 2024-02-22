@@ -20,16 +20,13 @@ h4 {
 	border-radius: 25px;
 	border: 5px solid #06744f ;
 	padding: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
 	background-color: #21af80;
 	box-shadow: 0px 0px 10px #21af80;
 	transition: .3s linear;
 	cursor: pointer;
-
 }
 
-@media (max-width:1040px) {
-	.weather-container {
-		margin: 15px;
-	}
+.weather-container #refresh-button:hover {
+	transform: scale(1.2);
 }
